@@ -31,7 +31,7 @@ pipeline {
                 script {
                     try {
                         println "this is for test"
-                        println "${pipeline_var}"
+                        println "${pipeline_var}
                     }
                     catch(err) {
                         println "there is a issue in test"
