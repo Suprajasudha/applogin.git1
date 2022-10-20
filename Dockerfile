@@ -13,3 +13,4 @@ CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
 # run the image : docker run --name applogin -d -p 8080:8080 applogin
 # access it by : <ip>:8080/applogin
 
+
