@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('souce') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'sudha World'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'sudha World'
+            }
+        }
+        stage('plan') {
+            steps {
+                echo 'sudha World'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'sudha World'
+            }
+        }
+    }
+}
